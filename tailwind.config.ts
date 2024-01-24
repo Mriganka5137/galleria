@@ -25,6 +25,9 @@ const config = {
         "color-gray-dark": "hsl(var(--color-gray-dark))",
         "color-gray-light": "hsl(var(--color-gray-light))",
       },
+      fontFamily: {
+        "libre-baskerville": ["var(--font-libreBaskerville)"],
+      },
 
       borderRadius: {
         lg: "var(--radius)",

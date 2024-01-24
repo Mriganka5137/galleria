@@ -27,7 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={cn(inter.variable, libreBaskerville.variable)}>
+      <body className={cn(inter.variable, libreBaskerville.variable, "")}>
         {children}
       </body>
     </html>
