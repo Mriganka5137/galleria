@@ -17,6 +17,9 @@
     @apply p-0 m-0 box-border;
   }
   body {
-    @apply bg-color-gray-light text-color-dark;
+    @apply bg-color-light text-color-dark;
+  }
+  .detail-page {
+    height: calc(100vh - 150px);
   }
 }
